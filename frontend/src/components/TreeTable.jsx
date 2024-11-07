@@ -6,7 +6,7 @@ const TreeTable = ({ trees, columns }) => (
     dataSource={trees}
     columns={columns}
     rowKey="id"
-    pagination={{ pageSize: 9 }}
+    pagination={{ defaultPageSize: 9 }}
   />
 );
 

@@ -23,8 +23,10 @@ const HomePage = () => {
           Découvrez des informations détaillées sur les arbres dans différents
           arrondissement.
         </p>
-        <Button type="primary" size="large" href="/trees">
-          Voir les arbres
+        <Button type="primary" size="large" href="/trees" style={{ textDecoration: 'none' }}>
+          <h2 style={{padding:20}}>
+          Data
+          </h2>
         </Button>
       </div>
       <Wave

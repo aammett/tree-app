@@ -71,8 +71,8 @@ const DataPage = () => {
         <Content
           style={{
             margin: "24px 16px 0",
-            paddingBottom: "24px",
-            height: "100%",
+            height: "calc(100vh - 112px)",
+            overflowX: "auto"
           }}
         >
           <div
